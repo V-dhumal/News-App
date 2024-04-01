@@ -1,0 +1,31 @@
+.news-article-image{
+    height:250px;
+    width:400px;
+    display:block;
+    margin:0 auto;
+    object-fit: cover;
+}
+.news-article-card{
+    margin-bottom:20px;
+    width:400px;
+    border:1px solid gray;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    padding:10px;
+}
+.article-title{
+    font-size:20px;
+}
+.article-info{
+    display:flex;
+    justify-content:space-between;
+    margin-top:10px;
+}
+.btn-read-more{
+    text-decoration: none;
+    background-color: black;
+    color:#fff;
+    padding:5px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
